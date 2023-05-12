@@ -296,10 +296,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib/libDualCamBokehCapture.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDualCamBokehCapture.camera.samsung.so \
-    vendor/samsung/gta4xlveu/proprietary/vendor/lib/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libEGL_adreno.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFlacSwDec.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib/libFrucSSMLib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrucSSMLib.so \
-    vendor/samsung/gta4xlveu/proprietary/vendor/lib/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGLESv2_adreno.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib/libGPTEE_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPTEE_vendor.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel_svc.so \
@@ -459,7 +457,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib/libpredeflicker_native.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpredeflicker_native.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib/libpvr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpvr.so \
-    vendor/samsung/gta4xlveu/proprietary/vendor/lib/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libq3dtools_adreno.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcbor.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib/libqcc_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcc_file_agent.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
@@ -673,9 +670,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib64/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libC2D2.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib64/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCB.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib64/libDualCamBokehCapture.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDualCamBokehCapture.camera.samsung.so \
-    vendor/samsung/gta4xlveu/proprietary/vendor/lib64/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libEGL_adreno.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib64/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFlacSwDec.so \
-    vendor/samsung/gta4xlveu/proprietary/vendor/lib64/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGLESv2_adreno.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib64/libGPTEE_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPTEE_vendor.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib64/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib64/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel_svc.so \
@@ -831,7 +826,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib64/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdnotifier.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib64/libpvr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpvr.so \
-    vendor/samsung/gta4xlveu/proprietary/vendor/lib64/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libq3dtools_adreno.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib64/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcbor.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib64/libqcc_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcc_file_agent.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
@@ -859,7 +853,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib64/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_daemon.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib64/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaiclib.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib64/libril_sem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril_sem.so \
-    vendor/samsung/gta4xlveu/proprietary/vendor/lib64/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilutils.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib64/librmp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librmp.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so \
     vendor/samsung/gta4xlveu/proprietary/vendor/lib64/libscaler_hw.unifunc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscaler_hw.unifunc.so \
