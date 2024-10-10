@@ -179,7 +179,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta4xlveu/proprietary/vendor/etc/wifi/icm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/icm.conf \
     vendor/samsung/gta4xlveu/proprietary/vendor/etc/wifi/indoorchannel.info:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/indoorchannel.info \
     vendor/samsung/gta4xlveu/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
-    vendor/samsung/gta4xlveu/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/samsung/gta4xlveu/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/samsung/gta4xlveu/proprietary/vendor/firmware/Data.msc:$(TARGET_COPY_OUT_VENDOR)/firmware/Data.msc \
     vendor/samsung/gta4xlveu/proprietary/vendor/firmware/a612_rgmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a612_rgmu.bin \
@@ -968,7 +967,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libskeymaster4device \
     TimeService \
-    android.hardware.gnss@2.1-service-qti \
-    android.hardware.neuralnetworks@1.3-service-qti-hta \
-    android.hardware.neuralnetworks@1.3-service-qti \
-    manifest_android.hardware.drm@1.3-service.widevine
+    android.hardware.gnss@2.1-service-qti.xml \
+    android.hardware.neuralnetworks@1.3-service-qti-hta.xml \
+    android.hardware.neuralnetworks@1.3-service-qti.xml \
+    manifest_android.hardware.drm@1.3-service.widevine.xml
