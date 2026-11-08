@@ -561,9 +561,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio.bridge@2.0 \
     vendor.samsung.hardware.radio.bridge@2.1 \
     vendor.samsung.hardware.radio.channel@2.0 \
-    vendor.samsung.hardware.radio@2.0 \
-    vendor.samsung.hardware.radio@2.1 \
-    vendor.samsung.hardware.radio@2.2 \
     vendor_lib_rfsa_adsp_capi_v2_aptX_CLHDADV_Encoder_so \
     vendor_lib_rfsa_adsp_libVC1Dec_so \
     vendor_lib_rfsa_adsp_libVC1DecDsp_skel_so \
