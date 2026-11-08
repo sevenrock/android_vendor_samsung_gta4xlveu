@@ -554,7 +554,7 @@ PRODUCT_PACKAGES += \
     libnlnetmgr \
     libremosaiclib \
     libril_sem \
-    libsec-ril \
+    libsec-ril-impl \
     libskeymaster4device \
     libvkmanager_vendor \
     unnhal-acc-hvx \
